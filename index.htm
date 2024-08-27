@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>turbo.az</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="  p-4 dark:bg-gray-100 dark:text-gray-800 ">
+        <div class="container md:hidden justify-between h-16 mx-auto ">
+            <div class="flex">
+                <ul class="items-stretch flex space-x-3 lg:flex">
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 text-[#ca1016] text-[18px] font-bold">TURBO.AZ</a>
+                    </li>
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 text-[#8d94ad] text-[18px] font-bold">BINA.AZ</a>
+                    </li>
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 text-[#8d94ad] text-[18px] font-bold">TAP.AZ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="items-center flex   flex-shrink-0 lg:flex">
+                <button class=" w-[26px] h-[26px] bg-[#ca1016] rounded-full text-[#fff]"><img src="img/download.svg" alt="plus"></button>
+            </div>
+        </div>
+        <div class="container">
+            <div class=" hidden md:flex bg-[#ebedf3] flex justify-around items-center ">
+                <div class="text-[#8d94ad] py-2 space-x-3">
+                    <a class="px-4" href="">Tap.az </a>
+                    <a class="px-4" href="">Bina.az</a>
+                    <a class="px-4" href="">Boss.az</a>
+                </div>
+                <div class="text-[#8d94ad] py-2 space-x-3" >
+                    <a class="text-[black]" href="">Destek:(012)505-77-55</a>
+                    <a class="px-4" href="">Yardım</a>
+                    <a class="px-4" href="#">RU</a>
+                    <i  class="fa-solid fa-heart"></i>
+                    <a class="px-4" href="">Seçilmişlər</a>
+                    <i   class="fa-solid fa-circle-user text-[22px]"></i>
+                    <a  class="px-4"href="">Giriş</a>
+                </div>
+            </div>
+            <div class="hidden lg:m-auto md:flex md:justify-around md:items-center lg:flex lg:justify-around lg:items-center bg-[#ca1016] text-white py-2 ">
+                <div class="md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center">
+                    <h1 class="font-bold"><a href="">TURBO.AZ</a></h1>
+                    <ul class="md:flex md:justify-around md:items-center lg:flex lg:justify-around lg:items-center lg:px-4 ">
+                        <li><a class="px-4" href="">Butun elanlar</a></li>
+                        <li><a href="">Salonlar</a></li>
+                        <li><a class="px-4" href="">Moto</a></li>
+                        <li><a href="">Ehtiyat hisseler ve aksesuarlar</a></li>
+                        <li><a class="px-4" href="">Icarə</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="bg-[#85c01f] p-2 rounded-md">
+                        <i class="fa-solid fa-plus"> </i>
+                        Yeni elan
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <main class="bg-[#f9f9fb]">
+        <div class="hidden md:flex justify-center py-4 space-x-4">
+            <div class="relative">
+              <input class="w-[250px] h-[48px] rounded-md bg-white pl-4 pr-10" type="text" placeholder="Marka">
+              <i class="fa-solid fa-chevron-down absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
+            </div>
+
+            <div class="relative">
+              <input class="w-[250px] h-[48px] rounded-md bg-white pl-4 pr-10" type="text" placeholder="Model">
+              <i class="fa-solid fa-chevron-down absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
+            </div>
+
+            <div class="flex">
+              <button class="rounded-l-lg bg-[#ca1016] text-white w-[80px] h-[48px]">Hamisi</button>
+              <button class="bg-white w-[80px] h-[48px] border-l border-gray-200">Yeni</button>
+              <button class="rounded-r-lg bg-white w-[80px] h-[48px] border-l border-gray-200">Surulmush</button>
+            </div>
+          </div>
+          
+          <div class="hidden md:flex justify-center py-4 space-x-4">
+
+            <div class="relative w-[250px]">
+              <input class="w-full h-[48px] rounded-md bg-white pl-4 pr-10" type="text" placeholder="Sheher">
+              <i class="fa-solid fa-chevron-down absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
+            </div>
+            <div class="relative w-[250px]">
+              <input class="w-full h-[48px] rounded-md bg-white pl-4 pr-10" type="text" placeholder="Qiymet">
+              <i class="fa-solid fa-chevron-down absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
+            </div>
+            <div class="flex">
+                <button class=" rounded-md bg-white w-[80px] h-[48px] mx-2">AZN</button>
+                <button class=" rounded-md bg-white w-[80px] h-[48px] mx-2">Kredir</button>
+                <button class=" rounded-md bg-white w-[80px] h-[48px] mx-2 ">Barter</button>
+              </div>
+            </div>
+            <div class="hidden md:flex justify-center py-4 space-x-4">
+                <div class="relative">
+                  <input class="w-[250px] h-[48px] rounded-md bg-white pl-4 pr-10" type="text" placeholder="Ban novu">
+                  <i class="fa-solid fa-chevron-down absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
+                </div>
+    
+    
+                <div class="flex">
+                  <button class="rounded-l-lg bg-white w-[100px] h-[48px] border-l border-gray-200">Il,min</button>
+                  <button class="rounded-r-lg bg-white w-[100px] h-[48px] border-l border-gray-200">maks.</button>
+                </div>
+              </div>
+          </div>
+          
+          
+        <section class="md:hidden">
+            <div class="container flex flex-col justify-center px-4 mx-auto py-1">
+                <div>
+                    <details class="w-full border rounded-t-lg bg-[white]">
+                        <summary class="px-4 py-6 text-[16px] focus:outline-none "><img class="w-[26px] h-[21px] inline-block" src="https://turbo.azstatic.com/assets/mobile/sprites/main-58e33429b460b8954f9774b6b79d7d004653d7779037c09449f0a6ca33425359.svg#sports-car" alt="car"> Bütün markalar</summary>
+                    </details>
+                    <details class="w-full border rounded-b-lg bg-[white]">
+                        <summary class="px-4 py-6 text-[16px] focus:outline-none "><img class="w-[26px] h-[21px] inline-block" src="https://turbo.azstatic.com/assets/mobile/sprites/main-58e33429b460b8954f9774b6b79d7d004653d7779037c09449f0a6ca33425359.svg#settings" alt="filter">Filtrler</summary>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <section class="md:hidden">
+            <div class="container flex flex-col justify-center px-4  mx-auto ">
+                <div class="space-y-4">
+                    <details class="w-full border rounded-lg bg-[white]">
+                        <summary class="px-4 py-4 focus:outline-none text-[15px]">Moto</summary>
+                    </details>
+                    <details class="w-full border rounded-lg bg-[white]">
+                        <summary class="px-4 py-4 focus:outline-none text-[15px]">Avtokataloq</summary>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <div class="md:hidden">
+            <p class="px-[40px] py-[10px]">Bu gün: <a href="#" class="text-[#4c88f9]">1706 yeni elan</a></p>
+            <img class="w-[480px] mx-[auto]" src="img/car.jpg" alt="banner" />
+            <ul class="flex justify-between m-3 underline  decoration-[#8f8c8c]">
+                <li><a href="">Kreditlə</a></li>
+                <li><a href="">Barter</a></li>
+                <li><a href="">Aksesuarlar</a></li>
+                <li><a href="">Şinler</a></li>
+                <li><a href="">Icarə</a></li>
+            </ul>
+            <h1 class="text-[#8d94ad] lg:pt-2 uppercase my-6 mx-3 px-2 lg:text-[16px]">Premium elanlar</h1>
+        </div>
+        <div id="cards" class="cards grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 p-4" >
+            
+                <!-- <div class="w-[25%]">
+                    <img class="w-[100%] h-[100%]" src="" alt="">
+                </div>
+                <div>
+                    <p class="font-bold text-lg">21000</p>
+                    <p class="font-medium text-md">Mercedes C 400</p>
+                    <p>2023 2.0 l km</p>
+                    <p class="text-[#8d94ad]">Baki, bugun 22;01</p>
+                </div> -->
+        </div>
+    </main>
+    <footer class="px-[15px] bg-[#f9f9fb] md:hidden">
+        <div>
+            <div >
+                <p class="text-[14px] text-[#212c3a] mb-[10px]">Qaydalar</p>
+                <p class="text-[14px] text-[#212c3a] mb-[10px]">İstifadəçi razılaşması</p>
+                <p class="text-[14px] text-[#212c3a] mb-[10px]">Reklam yerləşdirin</p>
+                <p class="text-[14px] text-[#212c3a] mb-[10px]">Sifarişli avtomobil alan alıcı üçün tövsiyələr</p>
+            </div>
+            <hr />
+            <div>
+                <p class= "text-[14px] text-[#000] mb-[10px] mb-[8px]">Dəstək xidməti</p>
+                <a class="text-[15px] font-bold" href="tel: +994125057755">(012) 505-77-55</a>
+                <p class="text-[12px] text-[#8d94ad] my-[10px]">İş saatları — Həftə içi: 09:00-19:00 | Şənbə: 09:00-13:00 </p>
+                <div class="my-5 text-[30px]">
+                    <a href=""><i class="fa-solid fa-envelope text-[#8d94ad] mr-6 "></i></a>
+                    <a href=""><i class="fa-brands fa-facebook text-[#8d94ad] mr-6"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram text-[#8d94ad]"></i></a>
+                </div>
+                <hr/>
+                <div>
+                    <p class="text-[12px] text-[#8d94ad] my-[10px]">Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş elanların məzmununa görə məsuliyyət daşımır.</p>
+                    <p class="text-[12px] text-[#8d94ad] my-[10px]">© 2006-2024 Digital Classifieds MMC. VÖEN: 1405631661</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div class="xl:container ">
+            <div class="text-[14px] px-8 mt-10 leading-8 lg:flex lg:px-[170px]">
+                <a class="block" href="#">Qaydalar</a>
+                <a class="block lg:mx-5" href="">İstifadəçi razılaşması</a>
+                <a class="block lg:mx-5" href="">Reklam yerləşdirin</a>
+                <a class="block lg:mx-5" href="">Sifarişli avtomobil alan alıcı üçün tövsiyələr</a>
+            </div>
+            <hr>
+            <div class="p-8 lg:hidden">
+                <a href="">Dəstək xidməti</a>
+                <a href="tel: +994125057755">(012) 505-77-55</a>
+                <p class="text-[13px] text-[#8d94ad]">İş saatları — Həftə içi: 09:00-19:00 | Şənbə: 09:00-13:00 </p>
+                <div class="my-5 text-[30px]">
+                    <a href=""><i class="fa-solid fa-envelope text-[#8d94ad] mr-6 "></i></a>
+                    <a href=""><i class="fa-brands fa-facebook text-[#8d94ad] mr-6"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram text-[#8d94ad]"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="text-[#8d94ad] px-8 text-[15px] lg:flex lg:justify-evenly lg:items-center lg:bg-[#ca1016] lg:text-white">
+                <div>
+                Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş elanların məzmununa görə məsuliyyət daşımır.
+                </div>
+                <div class="py-3 ">© 2006-2024 Digital Classifieds MMC. VÖEN: 1405631661</div>
+            </div>
+        </div>
+    </footer>
+    <div class="md:hidden flex justify-around items-center text-[#8d94ad]"> 
+        <div>
+            <i class="fa-solid fa-house text-[#ca1016]"></i>
+            <p class="mt-[5px] text-[10px] text-[#ca1016]">Əsas</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-heart px-5"></i>
+            <p class="mt-[5px] text-[10px] text-center text-[#8d94ad]">Seçilmişlər</p>
+        </div>
+        <div>
+            <i class="tab-bar__link-icon"><svg height="45" viewBox="0 0 46 45" width="46" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="circlegradient" x1="0%" x2="98.965%" y1="0%" y2="98.965%"><stop offset="0%" stop-color="#CA1016"></stop><stop offset="43.571%" stop-color="#C01817"></stop><stop offset="100%" stop-color="#B41312"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd" transform="translate(.5)"><circle cx="22.5" cy="22.5" fill="url(#circlegradient)" r="22.5"></circle><path d="M32.619 21.286h-9.31V12.38a.81.81 0 1 0-1.619 0v8.905h-9.309a.81.81 0 1 0 0 1.619h9.31v9.714a.81.81 0 1 0 1.619 0v-9.714h9.309a.81.81 0 1 0 0-1.62z" fill="#FFF" fill-rule="nonzero" stroke="#FFF" stroke-width="1.171"></path></g></svg></i>
+            <p class="mt-[5px] text-[10px] ml-[5px] text-[#8d94ad]">Yeni elan</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-circle-user px-3"></i>
+            <p class="mt-[5px] text-[10px] text-[#8d94ad]">Kabinet</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-bars px-4"></i>
+            <p class="mt-[5px] text-[10px] text-[#8d94ad]">Daha çox</p>
+        </div>
+    </div>
+<script src="index.js"></script>
+
+</body>
+</html>
